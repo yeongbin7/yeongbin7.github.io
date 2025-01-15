@@ -84,6 +84,6 @@ layout: page
 	<li><b><span style="color:white">Automation Evaluation System</span><br>- HYUIOT LAB<br>- Oct 2022 ~ Mar 2023<br><a href="https://github.com/hyu-iot/ipfs-experiment">Automation evaluation system in IPFS</a></b></li>
 	<li><b><span style="color:white">V2X Congestion Control</span><br>- HYUIOT<br>- Jul 2022 ~ Oct 2022<br>- Build V2X congestion control algorithm using ns-3 simulator(C++)</b></li>
 	<li><b><span style="color:white">Security for Decentralized Distributed File Systems</span><br>- HYUIOT LAB<br>- Mar 2023 ~ Mar 2024<br>- <a href="https://dl.acm.org/doi/abs/10.1145/3631309.3632832">Secure and lightweight file system using SST</a></b></li>
-	<li><b><span style="color:white"></span><br>- HYUIOT LAB<br>- Oct 2022 ~ Mar 2023<br></b></li>
+	<!-- <li><b><span style="color:white"></span><br>- HYUIOT LAB<br>- Oct 2022 ~ Mar 2023<br></b></li> -->
 	
 </ul>

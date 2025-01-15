@@ -7,7 +7,7 @@ description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/Figure_face.jpg
 
 # your site color theme, true for dark theme, 
@@ -58,15 +58,14 @@ authors:
 width: normal
 
 # if you don't need projects, comment the *projects* configs below
-# projects: true
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
-
 # do you want to show the "tags" inside the posts?
 show-tags: true
 
