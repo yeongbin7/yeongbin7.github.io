@@ -1,108 +1,67 @@
-# Hydrogen
-轻盈、干净
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Demo</a></h2>
+</p>
 
-跟随她的脚步，开始你的博客之旅
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-[Demo](https://atlinker.cn)
+***
 
->厌倦了无止境的加载以及繁杂的页面内容？那您很幸运，因为您发现了Hydrogen
-><br>我们避免繁杂 使用轻量化的模块来渲染在您屏幕上展示出来的一切 
-><br>当您使用过后就知道，她带给你的不仅仅只有简洁极速的阅读体验...
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
 
-语言：简体中文 | [English](README-en.md)
+<p align="center">
+    Light and Dark themes.
+</p>
 
-![hydrogen](/theme/logo-h.svg)
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
 
-~~点点~~Star~~来一个好吗！秋梨膏！！~~
+## What has inside
 
-# #快速开始
+- [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
+- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-sergiokopplin-github-io-indigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
 
-![hydrogen](/theme/a-h.png)
+## Setup
 
-## #准备
+0. :star: to the project. :metal:
+1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+2. Edit `_config.yml` with your data
+3. Write some posts :bowtie:
 
-打开主题根目录下的`_config.yml`
+To run locally do the following:
 
-根据需求修改以下选项：
+1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run:
+```sh
+bundle install
+bundle exec jekyll serve
+```
+4. Open it in your browser: [http://localhost:4000](http://localhost:4000)
 
-`title` : 更改你的博客名字
+Or run with [docker](https://github.com/BretFisher/jekyll-serve).
 
-`description` : 更改你的博客描述
+## Settings
 
-`keywords` : 博客关键词(SEO相关)
+You can customize your site on `_config.yml` file.
 
-`baseurl` : 博客所在的目录文件夹，开头需带上`/`，如果为根目录请留空(建议将博客放置在根目录，<strong>填写错误可能会导致样式丢失！</strong>)
+## How To?
 
-`url` : 你的域名，如`atlinker.cn`无需加`http/https://`
+Check the [FAQ](./FAQ.md).
 
-`bulidtime` : 博客建立时的时间戳，填写后将自动计算博客建立时间并显示在页脚. [日期转时间戳](https://tool.lu/timestamp/)
+---
+## License
 
-`paginate` : 主页中显示的最大文章数，超过设定的数值文章自动归入下一页
-
-`background` : 博客首页主题图片路径
-
-`theme_color` : 博客顶部栏颜色，填颜色代码**但不要带上#号**
-
-`MathJax` : 是否开启MathJax(布尔值)
-
-`author` : 作者名
-
-> 开发者选项
->> `PJAX` : PJAX无刷新加载(布尔值)
-
-## #设置域名
-
-修改根目录下的CNAME文件为你的域名即可
-
-#### 关于主题的基本设置已经完毕~
+[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
 
 ---
 
-## #友链添加
-
-打开`_data`目录下的`friends.yml`文件，根据文件中模板新添代码即可
-
----
-
-## #文章置顶
-
-在文章Front Matter添加stickie: true即可
-
-如：
-
-```
- ---
- layout: post
- title: Hi
- stickie: true
- ---
-```
-
-## #评论
-
-#### #前提
-
-> 必须确定已阅读[Valine](https://valine.js.org/quickstart.html)文档
-
-配置文件:
-
-`_data/social.yml` : 填写app id和key以及评论的相关信息
-
-`_includes/comments.html` : 评论设置
-
-确保配置无误后修改`_data/social.yml`中的`enable`值由`false`改为`true`即可
-
-因Valine的兼容性可能会与Pjax功能冲突！如开启评论，建议关闭Pjax功能
-
-## #写在最后
-
-请花10分钟时间**认真**阅读文档，如还有疑难之处，请提[issues](https://github.com/link9596/hydrogen/issues/new)，我会尽力帮忙
-
-如使用过程有任何疑难Bug，也请提出[issues](https://github.com/link9596/hydrogen/issues/new)！ :+1:
-
-最后，如果喜欢~请给项目点个star:wink:(点star的dalao都超级靓的)
-
-![hydrogen](/theme/author.svg)
-
-![](https://img.shields.io/github/repo-size/link9596/hydrogen?color=%23F8BBD0)
-![](https://img.shields.io/github/release/link9596/hydrogen?color=%235C6BC0&label=Version)
+[![Star History Chart](https://api.star-history.com/svg?repos=sergiokopplin/indigo&type=Date)](https://star-history.com/#sergiokopplin/indigo&Date)
