@@ -9,11 +9,11 @@ layout: page
 <h2>Areas of Interest</h2>
 <ul>
 	<li><b>IoT & Embedded system security</b></li>
-	<li><b>IoT & Embedded system design</b></li>
 	<li><b>Network security</b></li>
 	<li><b>Decentralized & Distributed file systems</b></li>
-	<li><b>DNS security</b></li>
-	<li><b>Firewall</b></li>
+	<li><b>AI for embedded system</b></li>
+	<li><b>DNS security, Firewall</b></li>
+	<li><b>Hacking</b></li>
 </ul>
 
 <h2>Education</h2>
