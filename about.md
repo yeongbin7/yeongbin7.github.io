@@ -19,7 +19,7 @@ layout: page
 <h2>Education</h2>
 
 <ul>
-	<li><b><span style="color:white">Hyundai Rotem</span><br>- Embedded Software Engineer<br>- Development of control and operation in KTCS(Korea Train Control System)<br>- 2024.05 ~ PRESENT</b><img src="./assets/images/rotem.jpg"/> </li>
+	<li><b><span style="color:white">Hyundai Rotem</span>  <img src="./assets/images/rotem.jpg"/ width = "50"> <br>- Embedded Software Engineer<br>- Development of control and operation in KTCS(Korea Train Control System)<br>- 2024.05 ~ PRESENT</b></li>
 	<li><b><span style="color:white">Master of Science</span><br>- Hanyang University<br>- Electrical Engineering<br>- 2022.03 ~ 2024.02</b></li>
 	<li><b><span style="color:white">Bachelor of Science</span><br>- Hanyang University<br>- Electrical Engineering<br>- 2016.03 ~ 2022.02</b></li>
 
